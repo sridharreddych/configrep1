@@ -1,6 +1,6 @@
 example.property: "I AM A AWS PROPERTY OVERRIDE"
-spring.jpa.database: "MYSQL"
-spring.datasource.platform:  "mysql"
+# spring.jpa.database: "MYSQL"
+# spring.datasource.platform:  "mysql"
 spring.jpa.show-sql: "true"
 spring.datasource.url: "jdbc:mysql://eagle-eye-aws-dev.cthqrjxnlezq.eu-west-2.rds.amazonaws.com:5432/eagle_eye_aws_dev"
 spring.datasource.username: "mysql_aws_dev"

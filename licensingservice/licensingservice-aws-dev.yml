@@ -7,7 +7,7 @@ spring.datasource.username: "mysql_aws_dev"
 spring.datasource.password: "Password!123"
 # spring.datasource.testWhileIdle: "true"
 # spring.datasource.validationQuery: "SELECT 1"
-# spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL5Dialect"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQLInnoDBDialect"
 spring.jpa.hibernate.ddl-auto: update
 redis.server: "redis"
 redis.port: "6379"
